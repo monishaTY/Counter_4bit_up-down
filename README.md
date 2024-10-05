@@ -24,7 +24,7 @@ The output is Counter which is 4 bit in size.
 
 	You have to apply high value to reset, to reset the Counter output.
  
-![image](https://github.com/user-attachments/assets/efe1095e-989e-4005-b53b-e9dc50d4025c)
+
 
 ## Fig 1: 4 Bit Up/Down Counter
 
@@ -43,7 +43,6 @@ Functional Simulation:
 	After this you can see the window like below 
 
 
-![Screenshot 2024-10-04 195643](https://github.com/user-attachments/assets/ab502e92-59f2-434c-a8f2-4f29925b52ec)
 
 
 
@@ -76,7 +75,8 @@ Functional Simulation:
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple step
 
-![Screenshot 2024-10-04 195714](https://github.com/user-attachments/assets/7d456804-91d8-43d4-920e-f4af626ec76d)
+
+![image](https://github.com/user-attachments/assets/93359d7f-5d76-46d6-b1c1-ed3f93f74528)
 
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
@@ -91,7 +91,8 @@ Click the cds.lib file and save the file by clicking on Save option
 
 	We are simulating verilog design without using any libraries
 
-![Screenshot 2024-10-04 195739](https://github.com/user-attachments/assets/992a8329-4394-4816-8af1-07c3c0ba062a)
+
+![image](https://github.com/user-attachments/assets/7e58cea0-1248-45c7-b6ec-d68089a9594d)
 
 
 	A Click “OK” in the “nclaunch: Open Design Directory” window
@@ -158,7 +159,8 @@ It contains statements that map logical library names to their physical director
     
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
-![Screenshot 2024-10-04 195802](https://github.com/user-attachments/assets/dd696e01-df1d-4a32-9b2d-c5fa9fa10510)
+
+![image](https://github.com/user-attachments/assets/2aa7cd88-de63-4379-bc01-95350fd3f641)
 
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
