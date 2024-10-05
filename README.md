@@ -103,7 +103,9 @@ Click the cds.lib file and save the file by clicking on Save option
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
-![Screenshot 2024-10-04 195818](https://github.com/user-attachments/assets/c750e277-efac-4354-8f42-9d7c52b1b9d9)
+
+![image](https://github.com/user-attachments/assets/f911777f-fa55-4179-8623-496b41e55a42)
+
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
 
