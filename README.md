@@ -157,7 +157,7 @@ It contains statements that map logical library names to their physical director
     
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
-![Screenshot 2024-10-04 195802](https://github.com/user-attachments/assets/dd696e01-df1d-4a32-9b2d-c5fa9fa10510)
+![Screenshot 2024-10-04 195853](https://github.com/user-attachments/assets/8ab3ba52-18cf-4256-aa25-dbbe97336043)
 
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
