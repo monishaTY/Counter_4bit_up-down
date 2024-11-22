@@ -55,8 +55,34 @@ Functional Simulation:
 (Note : File name should be with HDL Extension)
 
 ### Verilog code for 4-Bit Up-Down Counter:
+timescale 1ns / 1 ns
 
-*/Program  for  4-Bit Up-Down Counter
+module counter(clk,m,rst,count);
+
+input clk,m,rst;
+
+output reg [3:0] count;
+
+always@(posedge clk or negedge rst)
+
+begin
+
+if (!rst)
+
+count=0;
+
+else if(m)
+
+count=count+1;
+
+else
+
+count=count-1;
+
+end
+
+endmodule
+
 
 	Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
 
@@ -65,8 +91,7 @@ Functional Simulation:
 	Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (4bitup_down_count_tb.v).
 
 ### Test-bench code for 4-Bit Up-Down Counter:
-
-*/Test bench Program  for  4-Bit Up-Down Counter
+![image](https://github.com/user-attachments/assets/d3955ad9-5802-40de-8726-d8ab75d42925)
 
 ### To Launch Simulation tool
 	linux:/> nclaunch -new&            // “-new” option is used for invoking NCVERILOG for the first time for any design
@@ -76,7 +101,8 @@ Functional Simulation:
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple step
 
 
-![image](https://github.com/user-attachments/assets/93359d7f-5d76-46d6-b1c1-ed3f93f74528)
+![image](https://github.com/user-attachments/assets/0fdeacec-d762-4e1b-8144-598a00fecad4)
+
 
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
