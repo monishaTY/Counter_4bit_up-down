@@ -55,33 +55,8 @@ Functional Simulation:
 (Note : File name should be with HDL Extension)
 
 ### Verilog code for 4-Bit Up-Down Counter:
-timescale 1ns / 1 ns
 
-module counter(clk,m,rst,count);
-
-input clk,m,rst;
-
-output reg [3:0] count;
-
-always@(posedge clk or negedge rst)
-
-begin
-
-if (!rst)
-
-count=0;
-
-else if(m)
-
-count=count+1;
-
-else
-
-count=count-1;
-
-end
-
-endmodule
+![image](https://github.com/user-attachments/assets/4f82884d-fb98-4faf-9fea-48fdf8017694)
 
 
 	Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
@@ -118,7 +93,7 @@ Click the cds.lib file and save the file by clicking on Save option
 	We are simulating verilog design without using any libraries
 
 
-![image](https://github.com/user-attachments/assets/7e58cea0-1248-45c7-b6ec-d68089a9594d)
+![image](https://github.com/user-attachments/assets/a87ebe63-f6cf-4556-a2f9-ee7f014a04ba)
 
 
 	A Click “OK” in the “nclaunch: Open Design Directory” window
@@ -130,9 +105,7 @@ Click the cds.lib file and save the file by clicking on Save option
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
 
-
-![image](https://github.com/user-attachments/assets/29efc733-efb9-4c52-acf3-6518d4ab0390)
-
+![image](https://github.com/user-attachments/assets/be177927-00a1-480e-8e1a-2847ba42ec68)
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
 
@@ -156,10 +129,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
-
-![Screenshot 2024-10-04 195853](https://github.com/user-attachments/assets/8ab3ba52-18cf-4256-aa25-dbbe97336043)
-
-
+![image](https://github.com/user-attachments/assets/71756a7a-6866-4cdf-8b21-34db6c665291)
 
 	After compilation it will come under worklib you can see in right side window
 
@@ -187,9 +157,6 @@ It contains statements that map logical library names to their physical director
 9.	It also establishes net connectivity and prepares all of this for simulation
     
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
-
-
-![image](https://github.com/user-attachments/assets/2aa7cd88-de63-4379-bc01-95350fd3f641)
 
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
